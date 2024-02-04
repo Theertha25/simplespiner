@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.Spiner{
+    width: 200px;
+    height: 200px;
+    border: 20px solid white;
+    border-radius: 50%;
+    background-color: red;
+    border-bottom: 20px solid yellow;
+    border-top: 20px solid purple;
+    border-left: 20px solid blue;
+    border-right: 20px solid green;
+    animation: ani 1.5s linear infinite;
+
+}
+@keyframes ani {
+    to{
+        transform: rotate(360deg);
+    } 
+}
